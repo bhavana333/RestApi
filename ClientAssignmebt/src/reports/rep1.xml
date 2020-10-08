@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="11.374257">
+    <testcase classname="Exchange rates API for Latest Foreign Exchange rates" name="Verify the response for success status of given rates API" time="6.025252">
+        <system-out>
+            <![CDATA[Given Rates API for Latest Foreign Exchange rates-1.........................passed
+When The API is available-1.................................................passed
+Then verify the success status of the response-1............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Exchange rates API for Latest Foreign Exchange rates" name="Verify the response for the given API" time="0.676634">
+        <system-out>
+            <![CDATA[Given Rates API for Latest Foreign Exchange rates-1.........................passed
+When The API is available-1.................................................passed
+Then verify the response-1..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Exchange rates API for Latest Foreign Exchange rates" name="validate the correct response supplied by the call" time="1.590478">
+        <system-out>
+            <![CDATA[Given Rates API for Latest Foreign Exchange rates-1.........................passed
+When An incorrect or incomplete url is provided e.g: https://api.ratesapi.io/api/.passed
+Then validate the correct response supplied by the call-1...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Exchange rates API for Specific date Foreign Exchange rates" name="Verify the response for success status of given rates API" time="0.936569">
+        <system-out>
+            <![CDATA[Given Rates API for Specific date Foreign Exchange rates-2..................passed
+When The API is available for date..........................................passed
+Then verify the success status of the date response.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Exchange rates API for Specific date Foreign Exchange rates" name="Verify the response for the given API" time="0.687285">
+        <system-out>
+            <![CDATA[Given Rates API for Specific date Foreign Exchange rates-2..................passed
+When The API is available for date..........................................passed
+Then verify the date response...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Exchange rates API for Specific date Foreign Exchange rates" name="validate the correct response supplied by the call" time="1.458039">
+        <system-out>
+            <![CDATA[Given Rates API for Specific date Foreign Exchange rates-2..................passed
+When A future date is provided in the url...................................passed
+Then validate the correct response for current date supplied by the call....passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
