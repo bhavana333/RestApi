@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="5" tests="6" time="7.911155">
+    <testcase classname="Exchange rates API for Latest Foreign Exchange rates" name="Verify the response for success status of given rates API" time="5.990671">
+        <system-out>
+            <![CDATA[Given Rates API for Latest Foreign Exchange rates...........................passed
+When The API is available...................................................passed
+Then verify the success status of the response..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Exchange rates API for Latest Foreign Exchange rates" name="Verify the response for the given API" time="0.994694">
+        <skipped>
+            <![CDATA[Given Rates API for Latest Foreign Exchange rates...........................passed
+When The API is available...................................................passed
+Then verify the response....................................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Exchange rates API for Latest Foreign Exchange rates" name="validate the correct response supplied by the call" time="0.92579">
+        <skipped>
+            <![CDATA[Given Rates API for Latest Foreign Exchange rates...........................passed
+When An incorrect or incomplete url is provided e.g: https://api.ratesapi.io/api/.undefined
+Then validate the correct response supplied by the call.....................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Exchange rates API for Specific date Foreign Exchange rates" name="Verify the response for success status of given rates API" time="0">
+        <skipped>
+            <![CDATA[Given Rates API for Specific date Foreign Exchange rates....................undefined
+When The API is available...................................................skipped
+Then verify the success status of the response..............................skipped
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Exchange rates API for Specific date Foreign Exchange rates" name="Verify the response for the given API" time="0">
+        <skipped>
+            <![CDATA[Given Rates API for Specific date Foreign Exchange rates....................undefined
+When The API is available...................................................skipped
+Then verify the response....................................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Exchange rates API for Specific date Foreign Exchange rates" name="validate the correct response supplied by the call" time="0">
+        <skipped>
+            <![CDATA[Given Rates API for Specific date Foreign Exchange rates....................undefined
+When An incorrect or incomplete url is provided e.g: https://api.ratesapi.io/api/.undefined
+Then validate the correct response supplied by the call.....................undefined
+]]>
+        </skipped>
+    </testcase>
+</testsuite>

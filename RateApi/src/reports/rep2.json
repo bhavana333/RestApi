@@ -1,0 +1,308 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify the response for success status of given rates API",
+        "description": "",
+        "id": "exchange-rates-api-for-latest-foreign-exchange-rates;verify-the-response-for-success-status-of-given-rates-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5984583900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Rates API for Latest Foreign Exchange rates",
+            "match": {
+              "location": "stepdefinition1.rates_API_for_Latest_Foreign_Exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 316700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The API is available",
+            "match": {
+              "location": "stepdefinition1.the_API_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5770300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the success status of the response",
+            "match": {
+              "location": "stepdefinition1.verify_the_success_status_of_the_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Exchange rates API for Latest Foreign Exchange rates",
+    "description": "",
+    "id": "exchange-rates-api-for-latest-foreign-exchange-rates",
+    "keyword": "Feature",
+    "uri": "Scenario1.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify the response for the given API",
+        "description": "",
+        "id": "exchange-rates-api-for-latest-foreign-exchange-rates;verify-the-response-for-the-given-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 994607300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Rates API for Latest Foreign Exchange rates",
+            "match": {
+              "location": "stepdefinition1.rates_API_for_Latest_Foreign_Exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The API is available",
+            "match": {
+              "location": "stepdefinition1.the_API_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "verify the response",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Exchange rates API for Latest Foreign Exchange rates",
+    "description": "",
+    "id": "exchange-rates-api-for-latest-foreign-exchange-rates",
+    "keyword": "Feature",
+    "uri": "Scenario2.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "validate the correct response supplied by the call",
+        "description": "",
+        "id": "exchange-rates-api-for-latest-foreign-exchange-rates;validate-the-correct-response-supplied-by-the-call",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 925789700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Rates API for Latest Foreign Exchange rates",
+            "match": {
+              "location": "stepdefinition1.rates_API_for_Latest_Foreign_Exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "An incorrect or incomplete url is provided e.g: https://api.ratesapi.io/api/",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "validate the correct response supplied by the call",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Exchange rates API for Latest Foreign Exchange rates",
+    "description": "",
+    "id": "exchange-rates-api-for-latest-foreign-exchange-rates",
+    "keyword": "Feature",
+    "uri": "Scenario3.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify the response for success status of given rates API",
+        "description": "",
+        "id": "exchange-rates-api-for-specific-date-foreign-exchange-rates;verify-the-response-for-success-status-of-given-rates-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Rates API for Specific date Foreign Exchange rates",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "The API is available",
+            "match": {
+              "location": "stepdefinition1.the_API_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "verify the success status of the response",
+            "match": {
+              "location": "stepdefinition1.verify_the_success_status_of_the_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Exchange rates API for Specific date Foreign Exchange rates",
+    "description": "",
+    "id": "exchange-rates-api-for-specific-date-foreign-exchange-rates",
+    "keyword": "Feature",
+    "uri": "Scenario4.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify the response for the given API",
+        "description": "",
+        "id": "exchange-rates-api-for-specific-date-foreign-exchange-rates;verify-the-response-for-the-given-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Rates API for Specific date Foreign Exchange rates",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "The API is available",
+            "match": {
+              "location": "stepdefinition1.the_API_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "verify the response",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Exchange rates API for Specific date Foreign Exchange rates",
+    "description": "",
+    "id": "exchange-rates-api-for-specific-date-foreign-exchange-rates",
+    "keyword": "Feature",
+    "uri": "Scenario5.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "validate the correct response supplied by the call",
+        "description": "",
+        "id": "exchange-rates-api-for-specific-date-foreign-exchange-rates;validate-the-correct-response-supplied-by-the-call",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Rates API for Specific date Foreign Exchange rates",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "An incorrect or incomplete url is provided e.g: https://api.ratesapi.io/api/",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "validate the correct response supplied by the call",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Exchange rates API for Specific date Foreign Exchange rates",
+    "description": "",
+    "id": "exchange-rates-api-for-specific-date-foreign-exchange-rates",
+    "keyword": "Feature",
+    "uri": "Scenario6.feature"
+  }
+]
