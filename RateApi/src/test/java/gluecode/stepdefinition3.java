@@ -11,7 +11,7 @@ import cucumber.api.java.en.When;
 
 public class stepdefinition3 {
 	Response response;
-	@Given("^Rates API for Latest Foreign Exchange rates$")
+	@Given("^Rates API for Latest Foreign Exchange rates-3$")
 	public void rates_API_for_Latest_Foreign_Exchange_rates() throws Exception {
 	    // Write code here that turns the phrase above into concrete actions
 		response = RestAssured.get("https://api.ratesapi.io/api/latest");
@@ -22,11 +22,11 @@ public class stepdefinition3 {
 		response =  RestAssured.get("https://api.ratesapi.io/api/");
 	}
 
-	@Then("^validate the correct response supplied by the call$")
+	@Then("^validate the correct response supplied by the call-3$")
 	public void validate_the_correct_response_supplied_by_the_call() throws Exception {
 		System.out.println("Scenario3");
 		System.out.println(response.getBody().asString());
-		Assert.assertEquals(response.getStatusCode(), 404,"Given URL is available");
+		Assert.assertEquals(response.getStatusCode(), 400,"Given URL is available");
 }
 }
  

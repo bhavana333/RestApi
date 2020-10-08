@@ -11,22 +11,22 @@ import io.restassured.response.Response;
 public class stepdefinition1 {
 	Response response;
 	public int var=0;
-	@Given("^Rates API for Latest Foreign Exchange rates$")
+	@Given("^Rates API for Latest Foreign Exchange rates-1$")
 	public void rates_API_for_Latest_Foreign_Exchange_rates() throws Exception {
 	    
 		response = RestAssured.get("https://api.ratesapi.io/api/latest");
 	   
 	}
 
-	@When("^The API is available$")
+	@When("^The API is available-1$")
 	public void the_API_is_available() throws Exception {
 	    
-		if(response.getStatusCode()!=404) {
+		if(response.getStatusCode()==200) {
 			 var++;			
 		}
 	}
 
-	@Then("^verify the success status of the response$")
+	@Then("^verify the success status of the response-1$")
 	public void verify_the_success_status_of_the_response() throws Exception{
 		System.out.println("Scenario1 \n");
 		if(var==1) {

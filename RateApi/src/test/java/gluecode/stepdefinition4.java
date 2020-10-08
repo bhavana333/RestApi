@@ -12,12 +12,12 @@ import cucumber.api.java.en.When;
 public class stepdefinition4 {
 	Response response;
 	int var=0;
-	@Given("^Rates API for Specific date Foreign Exchange rates$")
+	@Given("^Rates API for Specific date Foreign Exchange rates-4$")
 	public void rates_API_for_Specific_date_Foreign_Exchange_rates() throws Exception {
 	    
 		response = RestAssured.get("https://api.ratesapi.io/api/2010-01-12");
 	    	}
-	@When("^The API is available$")
+	@When("^The API is available-4$")
 	public void the_API_is_available() throws Exception {
 	   
 		if(response.getStatusCode()!=404) {
@@ -25,7 +25,7 @@ public class stepdefinition4 {
 		}
 	}
 
-	@Then("^verify the success status of the response$")
+	@Then("^verify the success status of the response-4$")
 	public void verify_the_success_status_of_the_response() throws Exception{
 	   
 		System.out.println("Scenario4 \n");

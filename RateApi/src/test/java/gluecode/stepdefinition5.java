@@ -11,25 +11,25 @@ import io.restassured.response.Response;
 public class stepdefinition5 {
 	Response response;
 	public int var = 0;
-	@Given("^Rates API for Specific date Foreign Exchange rates$")
+	@Given("^Rates API for Specific date Foreign Exchange rates-5$")
 	public void rates_API_for_Specific_date_Foreign_Exchange_rates() throws Exception {
 	    
 		response = RestAssured.get("https://api.ratesapi.io/api/2010-01-12");
 	    	}
-	@When("^The API is available$")
+	@When("^The API is available-5$")
 	public void the_API_is_available() throws Exception {
 
 		if(response.getStatusCode()!=404) {
 			 var++;			
 		}
 	}
-	@Then("^verify the response$")
+	@Then("^verify the response-5$")
 	public void verify_the_response() throws Exception {
 		System.out.println("Scenario5 \n");
 		if(var==1) {
 			//Validating CONTENT TYPE from response
 			String contentType = response.getContentType();
-			Assert.assertEquals(contentType /* actual value */, "application/json;charset=UTF-8" /* expected value */);
+			Assert.assertEquals(contentType /* actual value */, "application/json" /* expected value */);
 			
 			
 			//Validating text from response
